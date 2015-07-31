@@ -1,0 +1,75 @@
+.body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #fefefe;
+}
+
+
+.header {
+    background-color: #222222;
+}
+
+.header h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    line-height: 70px;
+    color: black;
+    opacity: .7;
+}
+
+.header h2 {
+    position: relative;
+    font-size: 70px;
+    color: black;
+    opacity: .7;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.footer div {
+    height: 100%;
+    position: relative;
+}
+
+.footer p {
+    color: white;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+/*
+.container {
+    height: 100%;
+    position: relative;
+}
+*/
+
+.header h2:before,
+.header h2:after {
+    content: "";
+    position: absolute;
+    height: 45px;
+    border-bottom: 5px solid black;
+    top: 0;
+    width: 24%;
+}
+
+.header h2:before {
+    right: 5%;
+    margin-right: 5px;
+}
+
+.header h2:after {
+    left: 5%;
+    margin-left: 5px;
+}

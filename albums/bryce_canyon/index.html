@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calderon Photo Album</title>
+    <meta charset="utf-8">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    
+    <!--Bootstrap from a CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!--JavaScript-->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/lib/collagePlus/jquery.collagePlus.min.js" type="text/javascript"></script>
+    <script src="/lib/collagePlus/extras/jquery.removeWhitespace.min.js" type="text/javascript"></script>
+    <script src="/js/home.js" type="text/javascript"></script>
+    <script src="/js/album.js" type="text/javascript"></script>
+    <link href="/lib/collagePlus/css/transitions.css" rel="stylesheet" type="text/css">
+    <script src="/js/CollageCreator.js" type="text/javascript"></script>
+    <script src="/js/AlbumFactory.js" type="text/javascript"></script>
+
+    <!--My Styles-->
+    <link href="/css/common.css" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
+    <link href="/css/album.css" rel="stylesheet">
+    
+    <!-- inline album info script -->
+    <script type="text/javascript">
+        // This is the path of the current album.
+        var albumPath = '   /albums/bryce_canyon';
+
+        var images = [
+            { path: "bryce_canyon1.jpg" },
+            { path: "bryce_canyon2.jpg" },
+            { path: "bryce_canyon3.jpg" },
+            { path: "bryce_canyon4.jpg" },
+            { path: "bryce_canyon5.jpg" },
+            { path: "bryce_canyon6.jpg" }
+            // More image objects
+        ];
+    </script>
+    
+    
+
+</head>
+    <body>
+        
+        <header>
+                        
+              
+            <div class="container-fluid header header-small">
+                <div class="container">
+                <a href="/"><span class="glyphicon glyphicon-home home"></span></a>
+                </div>
+                <h1 class="text-center">2014</h1>
+                <h2 class="text-center">Calderon Trips</h2>
+            </div>
+        </header>
+        
+        
+        
+        <section>
+<!-- begin albums -->
+        <div class="container collage-content">
+            <!-- album cover images will be added here -->
+        </div>
+<!-- end albums -->
+        </section>
+        
+        
+        
+        <footer class="hide-me">
+            <div class="container-fluid footer hide-me">
+                <p class="text-right author">&copy; Andres Calderon</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+/* album.css */
+
+div.header-small {
+    height: 0;
+    padding-bottom: 13%;
+    min-height: 210px;
+}
+
+div.header-small .home {
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    opacity: .6;
+}
+
+div.header-small .home:hover {
+    color: burlywood;
+    cursor: pointer;
+}
+
+/*
+div.header-small h2 {
+    font-size: 50px;
+}
+
+div.header-small h2:before
+div.header-small h2:after {
+    height: 20px;
+}
+
+div.header-small h1 {
+    font-size: 80px;
+}
+*/
+
+div.collage-content {
+    margin-top: 20px;
+}
+
+div.collage-content img {
+    display: none;
+    opacity: 0;
+}
+
+div.hide-me {
+    opacity: 0;
+}
